@@ -17,9 +17,13 @@ in XML:
 
 in the Activity:
 
+```
+String songUrl = "https://soundcloud.com/swagytracks/logic-5am-prod-c-sick";
+
 soundCloudView = (SoundCloudView) findViewById(R.id.soundcloudview);
 
-soundCloudView.loadSong("https://soundcloud.com/swagytracks/logic-5am-prod-c-sick");
+soundCloudView.loadSong(songUrl);
 
 //or use:
-//soundCloudView.loadSong("https://soundcloud.com/swagytracks/logic-5am-prod-c-sick", "0099ff); for custom colors
+//soundCloudView.loadSong(songUrl, "0099ff); for custom colors
+```
